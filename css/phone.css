@@ -1,0 +1,19 @@
+html {
+	background-color: #000;
+	height: 548px;
+	width: 320px;
+	overflow: hidden;
+}
+body {
+		margin: 0;
+}
+.getoff
+{
+	width: 100%;
+	margin-top: 80px;
+	font-family: 'Helvetica Neue';
+	font-weight: bold;
+	font-size: 70px;
+	text-align: center;
+	color: #fff;
+}
