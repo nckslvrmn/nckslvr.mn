@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'mono';
-    src: url('MonoSocialIconsFont-1.10.eot');
-    src: url('MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'), url('MonoSocialIconsFont-1.10.woff') format('woff'), url('MonoSocialIconsFont-1.10.ttf') format('truetype'), url('MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
-    src: url('MonoSocialIconsFont-1.10.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 html {
     font-family: 'Source Sans Pro';
     color: #ffffff;
@@ -41,11 +32,10 @@ a, a:link, a:visited {
     text-decoration: none;
     outline: none;
     cursor: pointer;
-    transition: color .35s ease;
 }
 
-a:hover {
-    color: #0645ad;
+.links a {
+    padding: 5px 10px 0 10px;
 }
 
 @media screen and (min-device-width: 360px) {
